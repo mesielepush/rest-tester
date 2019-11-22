@@ -1,5 +1,5 @@
 require 'rest-client'
+  url = "http://localhost:3000"
 
-url = 'http://localhost:3000'
-
-puts RestClient.get(url)
+  puts RestClient.get(url)
+  RestClient.post(url,"")
